@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UsingPhone" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:layout_margin="10sp"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/ic_baseline_arrow_back_ios_24" />
+        <TextView
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="#9C000000"
+            android:textStyle="bold"
+            android:text="이메일로 계정 찾기"/>
+        <Button
+            android:id="@+id/closeBtn"
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:layout_margin="10sp"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/ic_baseline_close_24" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5sp"
+        android:background="#3B3840" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textColor="#9C000000"
+        android:text="이메일을 입력해주세요" />
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:layout_gravity="center_horizontal"
+        android:ems="15"
+        android:hint="비밀번호 변경 메일을 보냅니다"
+        android:inputType="textEmailAddress" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="전송"/>
+
+</LinearLayout>

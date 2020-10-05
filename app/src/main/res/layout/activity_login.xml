@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEE500"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_gravity="center"
+        android:layout_margin="60sp"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:background="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="5sp"
+        android:ems="15"
+        android:hint=" 카카오계정 (이메일)"
+        android:text="youngkyo2020@gmail.com"
+        android:inputType="textEmailAddress" />
+    <View
+        android:layout_width="310sp"
+        android:layout_height="0.3sp"
+        android:layout_gravity="center_horizontal"
+        android:background="#6F3B3840" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="5sp"
+        android:background="#ffffff"
+        android:ems="15"
+        android:hint=" 비밀번호"
+        android:text="123456"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/loginCheckBox"
+        android:layout_width="325sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="자동 로그인"/>
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="325sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_gravity="center_horizontal"
+        android:background="#422C2C"
+        android:textStyle="bold"
+        android:textColor="#F8D988"
+        android:text="로그인" />
+    <Button
+        android:id="@+id/signUpBtn"
+        android:layout_width="325sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_gravity="center_horizontal"
+        android:background="#422C2C"
+        android:textStyle="bold"
+        android:textColor="#F8D988"
+        android:text="새로운 카카오 계정 만들기" />
+    <View
+        android:layout_width="350sp"
+        android:layout_height="0.3sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30sp"
+        android:background="#6F3B3840" />
+    <Button
+        android:id="@+id/findPasswordBtn"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_gravity="center_horizontal"
+        android:background="#00422C2C"
+        android:textStyle="bold"
+        android:textColor="#5E76E8"
+        android:textSize="16sp"
+        android:text="비밀번호를 잊어버리셨나요?" />
+
+</LinearLayout>

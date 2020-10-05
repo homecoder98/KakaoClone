@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PrivacyTerms">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:layout_margin="10sp"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/ic_baseline_arrow_back_ios_24" />
+        <TextView
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="#9C000000"
+            android:textStyle="bold"
+            android:text="개인정보 인증 동의"/>
+        <Button
+            android:id="@+id/closeBtn"
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:layout_margin="10sp"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/ic_baseline_close_24" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5sp"
+        android:background="#3B3840" />
+    <ImageView
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginTop="40sp"
+        android:layout_marginBottom="50sp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_baseline_how_to_reg_24"/>
+
+    <TextView
+        android:layout_width="270sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#B4000000"
+        android:text="계속 진행하려면 확인이 필요합니다."/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_how_to_reg_24"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#5C6ED3"
+            android:text="확인해주세요."/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25sp"
+        android:textColor="#79000000"
+        android:text="본인확인 정보는 카카오계정에 저장되고 변경할수 없습니다.꼭 본인명의의 휴대폰 번호를 사용해주세요."/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <CheckBox
+            android:id="@+id/allCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="165sp"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="50sp"
+
+            android:text="모두 동의합니다"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="50sp"
+            android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/firstCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="[필수] 카카오 개인정보 수집 및 이용동의"/>
+            <Button
+                android:id="@+id/firstButton"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:layout_marginLeft="70sp"
+                android:background="@drawable/ic_baseline_chevron_right_24"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="50sp"
+            android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/secondCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="[필수] 드림시큐리티 본인확인이용 동의"/>
+            <Button
+                android:id="@+id/secondButton"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:layout_marginLeft="77sp"
+                android:background="@drawable/ic_baseline_chevron_right_24"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="50sp"
+            android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/thirdCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="[필수] 개인정보 수집 및 이용동의"/>
+            <Button
+                android:id="@+id/thirdButton"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:layout_marginLeft="112sp"
+                android:background="@drawable/ic_baseline_chevron_right_24"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="50sp"
+            android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/fourthCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="[필수] 개인정보 식별 처리 동의"/>
+            <Button
+                android:id="@+id/fourthButton"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:layout_marginLeft="125sp"
+                android:background="@drawable/ic_baseline_chevron_right_24"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="50sp"
+            android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/fifthCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="[필수] 통신사 본인확인서비스 이용동의"/>
+            <Button
+                android:id="@+id/fifthButton"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:layout_marginLeft="77sp"
+                android:background="@drawable/ic_baseline_chevron_right_24"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="360sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25sp"
+            android:text="확인"/>
+    </LinearLayout>
+</LinearLayout>

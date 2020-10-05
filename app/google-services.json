@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "840412858889",
+    "firebase_url": "https://kakao-clone-8dfac.firebaseio.com",
+    "project_id": "kakao-clone-8dfac",
+    "storage_bucket": "kakao-clone-8dfac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840412858889:android:ca25d08fb28ecd262fc6d8",
+        "android_client_info": {
+          "package_name": "com.example.kakaoclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840412858889-h43m12s616o1m8lhmtebvlhjliioehl6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kakaoclone",
+            "certificate_hash": "27d3f103500b3844f31de620386573c0862bba89"
+          }
+        },
+        {
+          "client_id": "840412858889-495j7ima267r3igp9s79kg9kmg55gi9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0YZ9BFhOchmrmwUVjT_v6TJLVVaEtxO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840412858889-495j7ima267r3igp9s79kg9kmg55gi9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
